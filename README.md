@@ -39,16 +39,3 @@ A standalone, serverless Chrome Extension for X (formerly Twitter). Runs **100% 
 6. Select your preferred AI provider (e.g. Groq or OpenAI), paste your API key, and click **"Test Key"** to verify connection.
 7. Open [x.com](https://x.com), click on any post composer, and press <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd>!
 
----
-
-## 📦 Publishing to Chrome Web Store
-
-1. Build the production ZIP bundle:
-   ```powershell
-   python package_extension.py serverless
-   ```
-2. The ready-to-upload ZIP is created at:
-   ```text
-   dist/novareply-serverless-v1.1.0.zip
-   ```
-3. Follow the full submission steps in [CHROME_STORE_LAUNCH_GUIDE.md](../CHROME_STORE_LAUNCH_GUIDE.md).
